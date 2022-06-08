@@ -14,13 +14,13 @@ The noisy binary image considered here is as below:
 
 ## Approach
 
-* Each frame from the video is extracted and converted from RBG to HSV color space.
+* Read image.
 
-* Each frame is masked for the red color.
+* Image erosion to separate the boundaries of the coins.
 
-* The coordinates of these contours are extracted and the top and bottom points are stored considering the max and min values.
+* Image dilatin to enlarge the boundaries.
 
-* Considering all of these points, Curve Fitting is done using the Normal Equation of the Standard Least Squares Method.
+* Detect number of coins using OpenCV Blob Detection.
 
 
 ## Output
