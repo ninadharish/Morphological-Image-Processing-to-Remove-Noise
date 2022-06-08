@@ -25,9 +25,9 @@ The noisy binary image considered here is as below:
 
 ## Output
 
-![alt text](/output/out1.jpg)
+![alt text](/output/output1.jpg)
 
-![alt text](/output/out2.png)
+![alt text](/output/output2.png)
 
 
 ## Getting Started
