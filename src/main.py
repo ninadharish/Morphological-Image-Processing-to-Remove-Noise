@@ -4,7 +4,7 @@ import numpy as np
 
 def find_no_coins():
 
-	img = cv2.imread('./data/image.png')
+	img = cv2.imread('../data/image.png')
 
 	kernel1 = np.ones((5, 5), np.uint8)
 
